@@ -9,5 +9,13 @@
             label="Dark Juno">
       </theme>
    </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="themes/css/wombat.css"
+            id="com.github.eclipsecolortheme.themes.darkjuno"
+            label="Wombat">
+      </theme>
+   </extension>
 
 </plugin>
