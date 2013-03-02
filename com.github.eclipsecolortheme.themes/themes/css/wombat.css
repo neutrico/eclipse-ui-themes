@@ -1,2 +1,17 @@
 @import url("e4_basestyle.css");
 
+.MTrimmedWindow { 
+    /* window background */
+    background-color: #1a1a1a;
+}
+
+.MPlaceholder {
+	/* Markers view header */
+	background-color: #1a1a1a;
+	color: #000;
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+	/* some area on left from main window */
+    background-color:  #1a1a1a;	
+}
