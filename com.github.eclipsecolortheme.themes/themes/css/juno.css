@@ -1,7 +1,8 @@
 @import url("e4_basestyle.css");
 
 .MTrimmedWindow { 
-    background-color: #444444;
+    /* background-color: #444444; */
+    background-color: #00FF00;
 }
 
 .MPartStack {
