@@ -1,13 +1,31 @@
 @import url("e4_basestyle.css");
 
+.MTrimmedWindow.topLevel {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .MTrimmedWindow { 
     /* window background */
-    background-color: #1a1a1a;
+    background-color: #1f1f1f;
+}
+
+.MArea {
+	padding: 0px 0px 0px 0px;
+	swt-corner-radius: 6px;
+}
+
+.MArea#org-eclipse-ui-editorss {
+	padding: 0px 0px 0px 0px;
+	swt-corner-radius: 6px;
 }
 
 .MPartStack {
 	font-size: 12;
-	swt-simple: false;
+	padding: 0px 0px 0px 0px;
+	swt-simple: true;
 	swt-mru-visible: false;
 	swt-tab-renderer: url(bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering);
 	swt-unselected-tabs-color: #333333 #333333 #333333 100% 100%;
@@ -15,23 +33,37 @@
 	swt-inner-keyline-color: #3c3b37;
 	swt-mru-visible: false;
 	swt-shadow-visible: false;
-	swt-tab-outline: #1a1a1a;
+	swt-tab-outline: #1f1f1f;
+	swt-corner-radius: 6px;
 	/* swt-corner-radius: 0; */
+}
+
+.MPartStack#org-eclipse-e4-primaryDataStack {
+	padding: 0px 0px 0px;
+	swt-corner-radius: 6px;
 }
 
 .MPlaceholder {
 	/* Markers view header */
-	background-color: #1a1a1a;
+	background-color: #1f1f1f;
 	color: #000;
+	padding: 0px 0px 0px 0px;
+	swt-simple: true;
+	swt-shadow-wisible: false;
 }
 
 .MTrimBar {
-    background-color: #00ff00;
+	/* status bar */
+    background-color: #3c3b37;
     background-image: none;
 }
 
 .MTrimBar CLabel {
 	color: #999999;
+}
+
+.MToolControl {
+	margin: 0;
 }
 
 .MToolControl CLabel {
@@ -106,4 +138,9 @@ CTabItem:selected {
 
 Label {
 	color: #999999;
+}
+
+Hyperlink {
+	color: #FFF;
+	background-color: #3c3b37
 }
